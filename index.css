@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{   background-size:cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);   
+    height: auto; 
+    width: 100%;
+}
+.part1
+{  
+    width: fit-content;
+    margin: 10px;
+    
+    
+}
+nav
+{   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: inline block;
+    cursor: pointer;
+
+}
+.logo{
+    color:white;
+    text-transform: uppercase;
+    padding:20px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+   
+
+
+nav ul li a
+{
+    color:#A6F6FF;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+nav ul li{
+    color: #A6F6FF;
+    list-style-type:none;
+    display: inline-block;
+    padding:10px 25px ;
+}
+
+.part2{
+    display:block;
+    translate: 20% 10%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(me.jpg); 
+     margin-block: 15%;
+    width: 40%;
+    height: 80%;
+    justify-content: space-between;
+    top: 70%;
+    bottom: 50%;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 5px;
+    padding: 6% ;
+}
+    
+#h3 { color: #6499E9;
+      font-size: larger;
+      font-weight: 100;
+      font-style: italic;
+
+    }
+    h4{
+        color: white;
+        display: block;
+    }
+    h1{
+        color: #F2F7A1;
+        display: block;
+
+    }
+    p1 { display: block;
+        color: rgb(55, 211, 203);
+
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        height: auto;
+        padding-top: 20px;
+    }
+    #cv{
+        background-color:transparent;
+        padding-top: 20;
+        
+        
+        border-color:black;
+        
+        border-width: 2px;
+        border-style:solid ;
+        
+        }
+    #me{
+        background-color:transparent;
+        padding-top: 20;
+        border-color:black;
+        
+        border-width: 2px;
+        border-style: solid;
+    }
+    
+        
+        
+        
+        
+    
+    .buttons a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        
+
+    }
+    .aboutme
+    {
+    
+        margin: 5%;
+        border-top:solid black ;
+        height: auto;
+        width:80%;
+        padding-left: 10%;
+        margin-block: 7%;
+        text-align: center;
+    }
+    #myself1{
+        display: block;
+        height: 40%;
+        width: auto;
+        margin-block: 5%;
+        color: #EE9322;
+        
+    }
+    #myself2{
+        display: block;
+        height: 40%;
+        width: auto;
+        margin-block: 5%;
+        color: #EE9322;
+        
+    }
+    #myself3{
+        text-align: center;
+        font-weight: bold;
+        color: #D83F31;
+        
+    }
+    .flex-container
+    { display: flex;
+        text-align: centre;
+        padding-left: 8%;
+        margin-top:2%;
+        width: 80%;
+        margin-inline: 10%;
+        height: fit-content;
+        
+    }
+     .hard
+     {  border-radius: 20% 20%;
+        border: solid black;
+        margin-left: 7%;
+        text-align: left;
+        width: 60%;
+        height: 60%;
+        padding:6%;
+        
+        color: #EE9322;
+     }   
+     .soft
+     {
+        border-radius: 20% 20%;
+        border: solid black;
+        text-align:left;
+        margin-right: 7%;
+        width: 60%;
+        height: 60%;
+        padding:6%;
+        
+        color: #EE9322;
+     }   
+    .eg{
+         text-align: center;
+         font-weight: bold;
+         text-transform: uppercase;
+         border-top: solid black;
+         width: 100%;
+         color: #D83F31;
+         
+     }
+     .heading{
+         text-align: center;
+         color: burlywood;
+         text-transform: capitalize;
+         margin-bottom: 7%;
+     }
+     .experience{
+        
+         margin-top: 8%;
+        }
+       #experience1 {
+           height: fit-content;
+           display: block;
+           text-align: center;
+           color:#EE9322;
+           margin-top: 5%;
+           line-height: 50px;
+           
+
+        }
+        .contact{
+            margin-top: 8%;
+            display: block;
+           
+        }
+        .phn{
+            text-align: left;
+            color: burlywood;
+            margin-left: 3%;
+            margin-block: 2%;
+            display: block;
+           
+
+        }
+        .linkedin{
+
+            text-align: left;
+            color: burlywood;
+            margin-left: 3%;
+            margin-block: 2%;
+            display: block;
+        }
+
+
+     
+
+
+
+
+    
+        
+    
+        
+
+    
+    
+    
